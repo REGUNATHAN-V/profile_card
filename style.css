@@ -15,7 +15,7 @@ body {
     /* background-color: rgba(24, 135, 226, 0.726); */
     /* background-color: rgba(0, 0, 0, 0.507); */
     /* background: rgb(0, 2, 10);  */
-    background-image: url(/abstract-textured-backgound.jpg);
+    background-image: url(/profile_card-main/abstract-textured-backgound.jpg);
     position:fixed;
     background-size:cover;
     display:grid;
@@ -28,7 +28,8 @@ body {
     background-color: #2c2e2ddc;
     /* background-color: rgba(111, 151, 184, 0.76); */
     /* background: linear-gradient(90deg, rgba(16,17,10,1) 0%, rgba(48,55,22,1) 20%, rgba(11,19,2,1) 40%, rgba(3,17,1,1) 60%, rgba(133,10,10,1) 80%, rgba(79,75,75,1) 100%);*/
-    box-shadow: #bdc1c5 0px 20px 60px 0px, #bac0c5 0px 18px 36px -18px;
+    box-shadow:6px 12px 18px cyan;
+/*     #bac0c5 0px 18px 36px -18px; */
     transform: translate3d(0px, 0px, 50px);  
 }
 .profile-child{
@@ -43,7 +44,7 @@ body {
     width: 10rem;
     border:1px solid rgb(14, 9, 9);
     border-radius: 50%;
-    background-image: url(/WhatsApp\ Image\ 2024-02-04\ at\ 12.36.41\ PM.jpeg);
+    background-image: url(/profile_card-main/WhatsApp\ Image\ 2024-02-04\ at\ 12.36.41\ PM.jpeg);
     background-size: cover;
     transform-style: preserve-3d;
     transition: all 0.9s ease-in-out;
@@ -75,6 +76,5 @@ p{
 }
 .icon a:hover{
     color:rgb(171, 171, 177);
-    
-  }
+}
 
